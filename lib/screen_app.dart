@@ -33,7 +33,7 @@ class _ScreenApp extends State<ScreenApp>{
           indicatorColor: Colors.amber[400],
           selectedIndex: currentPage,
           destinations: const [
-            NavigationDestination(selectedIcon: Icon(Icons.home_outlined),icon:Icon(Icons.home), label: "Home"),
+            NavigationDestination(selectedIcon: Icon(Icons.home_outlined),icon:Icon(Icons.home), label: "Home Page"),
             NavigationDestination(selectedIcon: Icon(Icons.category_outlined),icon:Icon(Icons.category), label: "Category"),
             NavigationDestination(selectedIcon: Icon(Icons.person_2_outlined),icon:Icon(Icons.person), label: "Personal")
           ],

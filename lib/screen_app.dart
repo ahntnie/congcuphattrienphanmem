@@ -30,7 +30,7 @@ class _ScreenApp extends State<ScreenApp>{
                 currentPage = index;
              });
           },
-          indicatorColor: Colors.amber[400],
+          //indicatorColor: Colors.amber[400],
           selectedIndex: currentPage,
           destinations: const [
             NavigationDestination(selectedIcon: Icon(Icons.home_outlined),icon:Icon(Icons.home), label: "Home Page"),
